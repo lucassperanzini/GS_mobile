@@ -11,7 +11,7 @@ import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps';
 
 
 export default function HomeScreen() {
- 
+
   const Initial_region = {
     latitude: -23.563385776094893,
     longitude: -46.65387766209701,
