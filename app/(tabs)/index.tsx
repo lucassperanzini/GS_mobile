@@ -1,13 +1,16 @@
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import React, { useEffect } from 'react';
 import {
+  Button,
   PermissionsAndroid,
   Platform,
   StyleSheet,
-  View,
   Text,
-  Button,
+  View,
 } from 'react-native';
 import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps';
+
+const Tab = createBottomTabNavigator();
 
 
 export default function HomeScreen() {
@@ -64,6 +67,8 @@ export default function HomeScreen() {
           <Button title="Registrar apagão" onPress={() => {}} />
         </View>
       </View>
+
+      
     </View>
   );
 }
