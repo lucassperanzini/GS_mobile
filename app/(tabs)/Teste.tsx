@@ -132,7 +132,8 @@ const orangeZones = [
 
         {/* 📋 Card flutuante */}
         <View style={styles.overlayCard}>
-          <Text style={styles.cardTitle}>Centro</Text>
+         
+          <Text style={styles.cardTitle}><MaterialIcons size={16} name='holiday-village'/> Vila nova Conceição</Text>
           <View style={styles.cardRow}>
             <MaterialIcons name="error-outline" size={16} color="#D9534F" />
             <Text style={styles.cardText}>
